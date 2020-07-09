@@ -1,0 +1,29 @@
+
+
+body {
+  background-color: #34495e;
+  color: #fff;
+}
+
+.figure-container {
+  fill: transparent;
+  stroke: #fff;
+  stroke-width: 4px;
+  stroke-linecap: round;
+}
+
+.figure-part {
+  display: none;
+}
+
+@font-face {
+  font-family: 'MK4';
+  src: url(fonts/MK4.TTF);
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1, p {
+  font-family: MK4;
+  font-weight: 400;
+}
